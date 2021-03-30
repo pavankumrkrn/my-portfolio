@@ -1,0 +1,13 @@
+.cirl {
+  border-radius: 0px !important;
+  border-bottom-right-radius: 100px !important;
+  background: inherit;
+  cursor: pointer;
+}
+
+.blog-img {
+  height: 40vh;
+}
+.und {
+  text-decoration: underline;
+}

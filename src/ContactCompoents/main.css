@@ -1,0 +1,13 @@
+.topCard {
+  top: 300px;
+  background-color: rgb(78, 74, 74);
+  border-radius: 0px;
+}
+
+.cur {
+  cursor: pointer;
+}
+
+.cur:hover {
+  color: gold !important;
+}

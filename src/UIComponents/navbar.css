@@ -1,0 +1,11 @@
+.buttonSc {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+}
+.act {
+  color: black !important;
+}
+
+.sticky-top {
+  top: 0.5em;
+}
