@@ -52,7 +52,8 @@ export const fullStack = [
             'ut repudiandae suscipit necessitatibus eum facere architecto dolore doloremque.' +
             'Veritatis optio quae unde.',
         image: air,
-        url: 'https://upbeat-brahmagupta-45e703.netlify.app/',
+        gitHubLink: 'https://github.com/pavankumrkrn/airbnb-clone',
+        url: 'https://pvankumarairbnb.netlify.app/',
         technologies: [
             "fab fa-react fa-3x"
         ]
@@ -60,7 +61,7 @@ export const fullStack = [
     },
 
     {
-        name: 'Owen Story Website Clone',
+        name: 'Pizza Delivery Application',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi culpa debitis minima dolorem molestias deserunt illum,' +
             'ut repudiandae suscipit necessitatibus eum facere architecto dolore doloremque.' +
             'Veritatis optio quae unde.',
@@ -293,7 +294,7 @@ export const appClones = [
 
     },
     {
-        name: 'Owen story Clone',
+        name: 'Pizza Delivery Application',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi culpa debitis minima dolorem molestias deserunt illum,' +
             'ut repudiandae suscipit necessitatibus eum facere architecto dolore doloremque.' +
             'Veritatis optio quae unde.',
@@ -310,7 +311,8 @@ export const appClones = [
             'ut repudiandae suscipit necessitatibus eum facere architecto dolore doloremque.' +
             'Veritatis optio quae unde.',
         image: air,
-        url: "https://app-google-clone.netlify.app/",
+        url: "https://pvankumarairbnb.netlify.app/",
+        gitHubLink: 'https://github.com/pavankumrkrn/airbnb-clone',
         technologies: [
             "fab fa-react fa-3x"
         ]
