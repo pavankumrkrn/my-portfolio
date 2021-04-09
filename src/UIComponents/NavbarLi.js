@@ -1,17 +1,17 @@
-import { useHistory } from 'react-router-dom';
-import './navbarli.css'
+import "./navbarli.css";
+import { Link } from "react-scroll";
 
 export const NavbarLi = (props) => {
-    const { push } = useHistory();
-    return (
-        <li className="nav-item mr-5" >
-            <button className={(props.activ.includes(props.text)) ? 'btn btn-sm buttn btn-dark bn' : 'btn btn-sm bn'}>
-                <a className="nav-link text-white mainText" href='#'
-                    onClick={() => {
-                        push('/' + props.text);
-                    }}>
-                    {props.text}</a>
-            </button>
-        </li>
-    )
-}
+  console.log(props);
+  return (
+    <li className="nav-item mr-5">
+      <Link to={props.text} spy={true} smooth={true}>
+        <button className={"btn btn-sm back"}>
+          <a className="nav-link text-white mainText medium" href="#">
+            {props.text}
+          </a>
+        </button>
+      </Link>
+    </li>
+  );
+};
