@@ -11,11 +11,15 @@ export const Technologies = () => {
   }, []);
   return (
     <>
-      <p className="textXL text-white text-center" data-aos="fade-left">
+      <p
+        className="textXL text-white text-center"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
         Tools and Technologies
       </p>
 
-      <div className="card" data-aos="zoom-in">
+      <div className="card" data-aos="zoom-in" data-aos-duration="1500">
         <div className="card-body">
           <div className="row">
             {skillsObj.map((i, index) => {

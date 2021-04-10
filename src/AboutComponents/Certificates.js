@@ -14,10 +14,18 @@ export const Certificates = () => {
       {certificates.map((i, index) => {
         return (
           <div className="card cerf" key={index}>
-            <div className="card-body" data-aos="fade-up">
+            <div
+              className="card-body"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <p className="h6 text-center text-white">{i.org}</p>
               <p className="text-center text-white">{i.cer}</p>
-              <p className="text-right" data-aos="flip-left">
+              <p
+                className="text-right"
+                data-aos="flip-left"
+                data-aos-duration="1500"
+              >
                 <button
                   className="btn btn-success btn-sm button"
                   onClick={() => {

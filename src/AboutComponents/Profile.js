@@ -9,12 +9,16 @@ export const Profile = () => {
   }, []);
   return (
     <div className="mt-5">
-      <div className="row" data-aos="fade-up">
+      <div className="row" data-aos="fade-up" data-aos-duration="1500">
         <div className="col-sm-12">
           <p className="textXL text-white text-center">Profile</p>
         </div>
       </div>
-      <div className="row justify-content-center mb-1 mt-3" data-aos="fade-up">
+      <div
+        className="row justify-content-center mb-1 mt-3"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <div className="col-lg-6 col-md-6 col-10">
           <div className="card nBack">
             <img src={profile} alt="" className="card-img-top round" />

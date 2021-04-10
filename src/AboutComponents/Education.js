@@ -9,40 +9,68 @@ export const Education = () => {
   return (
     <div className="mt-5 mb-5">
       <div className="row justify-content-center">
-        <p className="textXL text-white" data-aos="fade-right">
+        <p
+          className="textXL text-white"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           Education
         </p>
       </div>
       <div className="row mt-2">
-        <div className="col-5 text-white text-right" data-aos="fade-right">
+        <div
+          className="col-5 text-white text-right"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <p className="text">J.B. Institute of Engineering and Technology</p>
         </div>
         <div className="col-2 text-white text-center">
           <p className="">|</p>
         </div>
-        <div className="col-5 text-white text-left" data-aos="fade-left">
+        <div
+          className="col-5 text-white text-left"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <p className="text">Bachelor of Technology (2014-18)</p>
         </div>
       </div>
       <div className="row">
-        <div className="col-5 text-white text-right" data-aos="fade-right">
+        <div
+          className="col-5 text-white text-right"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <p className="text">Narayana Junior College</p>
         </div>
         <div className="col-2 text-white text-center">
           <p className="">|</p>
         </div>
-        <div className="col-5 text-white text-left" data-aos="fade-left">
+        <div
+          className="col-5 text-white text-left"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <p className="text">Intermediate (2012-14)</p>
         </div>
       </div>
       <div className="row">
-        <div className="col-5 text-white text-right" data-aos="fade-right">
+        <div
+          className="col-5 text-white text-right"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <p className="text">Cambridge High School</p>
         </div>
         <div className="col-2 text-white text-center">
           <p className="">|</p>
         </div>
-        <div className="col-5 text-white text-left" data-aos="fade-left">
+        <div
+          className="col-5 text-white text-left"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <p className="text">Schooling (2012)</p>
         </div>
       </div>
