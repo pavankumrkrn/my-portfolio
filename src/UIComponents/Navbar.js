@@ -22,14 +22,25 @@ export const Navbar = (props) => {
     <nav
       className={
         scr
-          ? "navbar navbar-expand shd mb-3 mt-1 sticky-top active"
-          : "navbar navbar-expand mb-3 shd mt-1 sticky-top"
+          ? "navbar navbar-expand-lg shd mb-3 mt-1 sticky-top active"
+          : "navbar navbar-expand-lg mb-3 shd mt-1 sticky-top"
       }
     >
       <a className="navbar-brand text-white" href="#">
         Pavan K .
       </a>
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars text-white navbar-toggler-icon"></i>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto mr-5">
           {props.arr.map((i, index) => {
             return <NavbarLi text={i} key={index} />;
