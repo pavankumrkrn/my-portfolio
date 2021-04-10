@@ -6,6 +6,10 @@
   margin-top: 30vh;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-image: linear-gradient(
     black,
@@ -132,11 +136,17 @@ body {
   }
 }
 
+.d-block {
+  max-width: 90wv;
+}
 .footer {
   border-top: 1px solid gray;
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .blinking-cursor,
   .resp {
     font-size: 30px;

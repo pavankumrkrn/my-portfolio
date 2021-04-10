@@ -7,7 +7,7 @@ export const Education = () => {
     Aos.init({});
   }, []);
   return (
-    <div className="mt-5 mb-2">
+    <div className="mt-5 mb-5">
       <div className="row justify-content-center">
         <p className="textXL text-white" data-aos="fade-right">
           Education

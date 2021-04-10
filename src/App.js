@@ -24,24 +24,28 @@ const App = () => {
     );
   };
   return (
-    <div className="container-fluid">
-      <Navbar arr={home} />
-      <div id="Home">
-        <Carousel images={[image1, image2]} strArr={strArr} />;
-      </div>
-      <button
-        className="btn sticky-top shd float-right btn-lg bttn button cur text-white"
-        onClick={downloadFile}
-      >
-        <span className="btnspn">Resume</span>
-        <i class="fa fa-download dicon"></i>
-      </button>
-      <About />
-      <hr className="aboutHr" data-aos="fade-up" />
-      <Projects />
-      <hr className="aboutHr" data-aos="fade-up" />
-      <Blog />
-      {/* <Switch>
+    <>
+      <div className="container-fluid">
+        <Navbar arr={home} />
+        <div id="Home">
+          <Carousel images={[image1, image2]} strArr={strArr} />;
+        </div>
+        <button
+          className="btn sticky-top shd float-right btn-lg bttn button cur text-white"
+          onClick={downloadFile}
+        >
+          <span className="btnspn">Resume</span>
+          <i class="fa fa-download dicon"></i>
+        </button>
+        <div className="container">
+          <About />
+        </div>
+        <hr className="aboutHr" data-aos="fade-up" />
+        <p className="textXL text-center mb-5 mt-5 text-white">Projects</p>
+        <Projects />
+        <hr className="aboutHr" data-aos="fade-up" />
+        <Blog />
+        {/* <Switch>
           <Route path="/Home" exact={true} component={Home} />
           <Route path="/About" exact={true} component={About} />
           <Route path="/Projects" exact={true} component={Projects} />
@@ -50,10 +54,11 @@ const App = () => {
           <Route path="/Projects/" component={Projects} />
           <Route path="/" component={Home} />
         </Switch> */}
-      <div id="Contact" data-aos="fade-up">
-        <Footer />
+        <div id="Contact" data-aos="fade-up">
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
