@@ -9,3 +9,8 @@
 .small {
   font-size: small;
 }
+
+.loadingSpinner {
+  position: absolute;
+  z-index: 999;
+}

@@ -12,7 +12,7 @@ export const Technologies = () => {
   return (
     <>
       <p
-        className="textXL text-white text-center"
+        className="textXL text-white text-center mb-5"
         data-aos="fade-left"
         data-aos-duration="1500"
       >

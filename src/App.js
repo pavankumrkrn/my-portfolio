@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./UIComponents/Navbar";
 import { Footer } from "./UIComponents/Footer";
 import { About } from "./About";
@@ -15,14 +15,12 @@ const image2 =
   "https://thedevcouple.com/wp-content/uploads/2017/10/Interview-React-2.jpg";
 
 const App = () => {
-  React.useEffect(() => {
-    Aos.init({});
-  }, []);
   const downloadFile = () => {
     window.open(
       "https://drive.google.com/file/d/1NG2yYUXjQwe6-WJ0Xblw3N-77G0gcXgu/view?usp=sharing"
     );
   };
+
   return (
     <>
       <div className="container-fluid">
@@ -40,10 +38,10 @@ const App = () => {
         <div className="container">
           <About />
         </div>
-        <hr className="aboutHr" data-aos="fade-up" />
+        <hr className="aboutHr" />
         <p className="textXL text-center mb-5 mt-5 text-white">Projects</p>
         <Projects />
-        <hr className="aboutHr" data-aos="fade-up" />
+        <hr className="aboutHr" />
         <Blog />
         {/* <Switch>
           <Route path="/Home" exact={true} component={Home} />
@@ -54,7 +52,7 @@ const App = () => {
           <Route path="/Projects/" component={Projects} />
           <Route path="/" component={Home} />
         </Switch> */}
-        <div id="Contact" data-aos="fade-up">
+        <div id="Contact">
           <Footer />
         </div>
       </div>

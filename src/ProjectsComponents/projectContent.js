@@ -6,9 +6,10 @@ import "aos/dist/aos.css";
 export const ProjectContent = (props) => {
   React.useEffect(() => {
     Aos.init({});
-  }, []);
+  }, [props.arr]);
+  console.log(props.arr);
   return (
-    <div className="">
+    <div className="" style={props.loader ? { opacity: "0.1" } : null}>
       <div className="row justify-content-center m-3">
         {props.arr.map((i, index) => {
           let flag = true;
@@ -19,7 +20,7 @@ export const ProjectContent = (props) => {
           return (
             <>
               <div
-                className="col-lg-4 col-md-6 col-sm-12 mt-3 mb-2"
+                className="col-lg-4 col-md-6 col-sm-12 mt-3 mb-2 p-5"
                 data-aos="flip-left"
                 key={index}
                 data-aos-easing="ease-out-cubic"

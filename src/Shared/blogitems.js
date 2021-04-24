@@ -1,41 +1,52 @@
-import profile from '../Shared/Images/pp.jpg'
+import profile from "../Shared/Images/pp.jpg";
 
 export const blogItems = [
-    // {
-    //     name: 'Maximum Sub array problem',
-    //     image: profile,
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident, exercitationem totam impedit dolore sunt cum possimus odio veniam blanditiis quis reiciendis, aliquam pariatur ab optio omnis. Facere, dicta distinctio.',
-    //     link: ''
-    // },
+  // {
+  //     name: 'Maximum Sub array problem',
+  //     image: profile,
+  //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident, exercitationem totam impedit dolore sunt cum possimus odio veniam blanditiis quis reiciendis, aliquam pariatur ab optio omnis. Facere, dicta distinctio.',
+  //     link: ''
+  // },
 
-    {
-        name: 'How to copy a composite data type by value in JavaScript',
-        image: 'https://miro.medium.com/max/238/1*GQ_u-nyjfqsxiV1seCFmbw.jpeg',
-        description: 'In JavaScript composite data types include objects and arrays which are different from primitives (int, string, boolean). While copying contents of one object to other object the JavaScript the the logic is different when compared to the primitive data types',
-        link: 'https://muntha-pavan.medium.com/how-to-copy-a-composite-data-type-by-value-in-javascript-27f286042b86'
-    },
-    {
-        name: 'Objects and their internal representation in JavaScript',
-        image: 'https://miro.medium.com/max/875/1*ktOh-3QsYQvov66wOteXNw.jpeg',
-        description: 'Objects are the composite data types in JavaScript. They are used for storing data in key-value pairs. In JavaScript almost everything is an object.',
-        link: 'https://muntha-pavan.medium.com/objects-and-their-internal-representation-in-javascript-87213eb3a758'
-    },
-    {
-        name: 'Why there is a difference in behavior for copying contents in primitive and non primitive data types in JavaScript',
-        image: 'https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/08/JavaScript-data-types-1200x720.jpg',
-        description: 'Before answering this question let us see what are primitive and non primitive data types. Primitives are the basic data types of JavaScript like int, boolean and string. Of course, JavaScript does not allow giving key words for these data types. We can directly declare them like ',
-        link: 'https://muntha-pavan.medium.com/why-there-is-a-difference-in-behavior-for-copying-contents-in-primitive-and-non-primitive-data-21ba0478ccdf'
-    },
-    {
-        name: 'HTTP 1.1 vs HTTP 2',
-        image: 'https://image.slidesharecdn.com/http2-changes-everything-150223085850-conversion-gate01/95/http2-changes-everything-12-638.jpg?cb=1427097600',
-        description: 'Http (Hyper Text Transfer Protocol) is an application protocol which is standard for communication on the World Wide Web since its invention. In more simple terms it is like the certain set of rules to be followed while doing a task (in this case the task is communication or we can say transfer of data).',
-        link: 'https://muntha-pavan.medium.com/http-1-1-vs-http-2-5638838e2f42'
-    },
-    {
-        name: 'Difference between window, screen, and document in Javascript',
-        image: 'https://miro.medium.com/max/3000/1*c8uF_2EcBCzorp0Tmk5JKA.jpeg',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident, exercitationem totam impedit dolore sunt cum possimus odio veniam blanditiis quis reiciendis, aliquam pariatur ab optio omnis. Facere, dicta distinctio.',
-        link: ''
-    }
-]
+  {
+    name: "How to copy a composite data type by value in JavaScript",
+    image: "https://miro.medium.com/max/238/1*GQ_u-nyjfqsxiV1seCFmbw.jpeg",
+    description:
+      "In JavaScript composite data types include objects and arrays which are different from primitives (int, string, boolean). While copying contents of one object to other object the JavaScript the the logic is different when compared to the primitive data types",
+    link:
+      "https://muntha-pavan.medium.com/how-to-copy-a-composite-data-type-by-value-in-javascript-27f286042b86",
+  },
+  {
+    name: "Objects and their internal representation in JavaScript",
+    image: "https://miro.medium.com/max/875/1*ktOh-3QsYQvov66wOteXNw.jpeg",
+    description:
+      "Objects are the composite data types in JavaScript. They are used for storing data in key-value pairs. In JavaScript almost everything is an object.",
+    link:
+      "https://muntha-pavan.medium.com/objects-and-their-internal-representation-in-javascript-87213eb3a758",
+  },
+  {
+    name:
+      "Why there is a difference in behavior for copying contents in primitive and non primitive data types in JavaScript",
+    image:
+      "https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/08/JavaScript-data-types-1200x720.jpg",
+    description:
+      "Before answering this question let us see what are primitive and non primitive data types. Primitives are the basic data types of JavaScript like int, boolean and string. Of course, JavaScript does not allow giving key words for these data types. We can directly declare them like ",
+    link:
+      "https://muntha-pavan.medium.com/why-there-is-a-difference-in-behavior-for-copying-contents-in-primitive-and-non-primitive-data-21ba0478ccdf",
+  },
+  {
+    name: "HTTP 1.1 vs HTTP 2",
+    image:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAC+CAMAAAARDgovAAAB8lBMVEU1OUI1Oj41OUE1Oj8kKDW8vL9TVVoiLDMxNj82OkNkZ2stMjzQ09WysrP///8nLDaHlqmcqLmnssI1NEAgJjF1iKA5P0TMzcwnLTJ6jaSTmqc5PkcwOkOlrr/MzNB3i6YzM0HOAAD/Yj2f9u2Gjp7/9ss2MzouO0EtOkYyMUJZZnX/WDFNUFx7go40ZVo/67Nsb3aDhoqrGgBDNjmJJBN8KB0b2rag5cHLMRrJGAA1TUo6m3w7wpg3Kzo+zqE7tI+ipamSlplMUVVRNDR7KR5jLy5sLStdiE1DYkBgi00/NziCJhg/UUR1KyRYfUuPIxBHYEcWvaH5t6m5wdD57MQA8M0AzrVGpZA4hXA/4600V1E3d2g3oIA0IDNB2aY2FDHe4uAAABEQFh5fUVBONDlZMjCyeXNHWDecj3xprlCvvas2REA7ST5SGxVek0x8BgA+IR5ua1SPbSyYPBeuoJhaOyqphHZpEQB3g1SGfTiQShyBGhh+XS9oLTBoslWHOhuaGgRVjk5rQi10mkbRxcLB1b0+ZDh0nWZyRECUTEGKSEO6Vj7kXD1nRTunTUPGUzvBjW7Fs52np4fsORnrtY7o1O3ev+aWgYvVpt+/orbWquK6fcSDZXypc6lwQ2nc0LWKr5LChmaRXkpsg2mHdVrcaUcLSs9XAAAaK0lEQVR4nO1diV8byZXurjJMtYTA0ESWrYa02ZluycY6QGSN0MF9g3DIOjpAk2Rhs0SEJLveXJPZsbOJd8bx2Ds7mcnk2E02x/+571VLQgKp1ULdYn4DHzZIra7q11+/evVe1auSIFzjGte4xjWuYQaWTCblpEw0jcoqpZctzuVBDiXS6Wy6oO3NJLNpL8Fj4pUEzaeLuWwq4Q3ntFRCw0MCvZIQ2duJ1NszuWwuXAgXNJFe4QaSTKeS+XBuL5HLeS9blstFMpFKaqlwKBtOy5cty+VCndlLqoW0WEqHtMuW5ZIhgyqoSVAOmVy2KF8EMAn+MwqdkdvtZghBYnAIPpK6KwdclnER8BelIJghV7cE6JWYf9wVcUV64b9rPhLpZazXzeaBCkLGWZfEADkEYdwbAaAcvb2RyLyb9Poj811jwtfj9UVmo7N9c5G5b8xGPZ65nog2S3tm3UQUPbO+LokhDIzSG3PRqIfLMRfpmZ271Ts/1xPtme8eE73z0dnhcc8w+1aPf9jT+83oHOjG3JybUNdc95gYHp33zkWHXbPD7uEeNuzxfxN46XV9azbSLSYGeno8PbO+Xs8AvBwf8Nzq6RFn6YBrzg0s9XaTCY+nLzrgmh1ANQWpenp8sz5fpMd3ISbadlQJ3D71uQwmfD3zwx7XgM83O8DgEHzsQiZs944byzE6MBw9ZcIzP+DzzvqiszfATpC262s/AgMJPF5oBfD03QJeftbFaG/UzeBQtNfXO+cTiO0RUwNQeCKSmzPhltweZIKJkYi3z+Nx0QuIcBEmqAiUgzsi0coR4sU/kuA36uwKEwhqSFCNqAW/RPx+P3TlXWPCAMrCBYHOk8IH/Pq0i0yUuQBJKBeFS8WwG78AE9e4xjWuYRcuEk3YH4F8DqQQ59uO4qFTJaK9sT+7QHDFA0MbAbFGuxVKAx6XvUwwb98b7TPRZ6v7z7z94NO2A0liUr/HZysTA3P9bT9gd7S/7WfYor5vDLdXRHJH+vupnUyQ4b52nwewd6vfc8M+GSR3X3+/yy21NSLlG+3vj7rtE0Kgrv7+b7T5fFlvf3+/NSGsxWmSt8flFyCwEaxGeRCM+D0RL7MtLsUK5/u8UpuFsIzfitTW4g5BGO7p1al4IBGrHj1wdsPjcts33Uhx3HJ0uL2AggpsoA+bNW15KsROVdS+rgfcVc8/Pn36dGJSUWj9ac0KwdWh7+DBUIMPm1/JRAZB8N4abrM6MHF93LS0LGS1vd3o6Z3MTEzEthaoolgsU2bCRiAT7aLMhG0AJpiytagfLsY2lg9ERRdbuwqfDyZY3xu2yoBMEEWkuqBMLk3FppYmRV0XTOc3yOeDCbcDTMAfrgeKThaWN2JTh2IgYMKE6PsiM8EhUaIoAbqwFQOzAS+Vxh7wFWCiDEUPaEvcbDQ2oleHCQQoRNls6Loi1vugV4sJANF18WB5I7O4INarxpVjggN6VcNsQI9S6V2vJhMEjaiigbcxtXwAL7GTuZpMVKBTw2ys64ryOWHCCc/KwmmEexuT4G1sHYpfaM/KEgg0D/Q2vvdPto4WCQ4zYSnMN5iwOiQAikHJzurOt/8ZPHRrhSzW7IeovM0iyISlU62OTwATrUN8Duw6CAuuHR0dfcfFLBayWLO//fEJZMLSqVZ1rJ3WIcul1ZOTo5PPh8W8JDtBOA0ra6ve0rYevMJMyG4RaHheYjK8/pyMT3SfCUJUsrNysn1MZRy1IAK9mkzIqndne237OKie5plcQTtBVHFnZW17U1b5u8pR+3UC+o62y3SRCVXeRBqIqp754EoxQWR1c/tkZZOpDT68KnYCO0xhc3ttZYeppOH4nRNMtH9XzjOB2gA0iGrTeXwnmPgubTJq2hSWmWg6fVQ/P8RH+SsTRURlwRI0ih2vynBoogmQCUvVW4Xgv/W9p4e6Val5EWTC2pkWffJy3MGJkNXj1ZO1VRIsq0OzUtCLuu2OO74/MfF0UrE82dpO3GHtrIpOUCK7S6trK6slGUJT0YjimpVygok3YhMx3fq0s0NMQIcZBG8aaIAO08ItOsHE8OHy1LLuCBMWAUy4VbK6tgbaoFos40gvKin6xpLeRhn7+4751e2T7ZLKrN+cQ/4EUTaWFOtZS/Yz8YN/+denmXYehiNM8JQpunFoXRAHdGJrYmJia0EMKNiJWSnjgLdt+JiExg51q1phPxPjynpmeWExFlueFHRLySQOxh1i7DBgsYwTPqZCNRLQ1/mExgENCIpk+lyo/VG5vxJ3iGJmIWBNK5zztomukIPlqdji4boimOVbOjk+IdL1zIG1LCcn4w5SmdCILS7QQPNH42gsCm31wFIZW5hwn97IuQiMEF2nC4uZ2PIB5g4IDfiwhQlSI0QtE5I+mZm0ohU2MEG8kdM7aTA+gcN0irL+7lRsY2lSV873a7YwwSIub5XluvEJxRoVnceigjs6Fy0Hk9W4oxZU5L8VBdMnYotLmqIQpbbKzmNRIMI1G5lzC+V3YDFrPgQq1pWWNXQci1LBHenxzFd88uZzYPjAAoq4sFxNn6h80nncAXX1ejwRt1B+VzsHBiGFcpARzS/QTtzRnCM2H436K8w20IlT2rELURSdHi7G3lnG1FXKxyzs0AnqjUbnWVnKMzrBqaBNh0fKJ1nWCZMGNufq9VfeWJv50fXJpcWNqaVJARON7LATYiTaO199d3YcUxEOM2KLFQY2WEx31DM7XnljjQkC4ZHC0yemDkXlDRuYYC7P7Gkt50d0lcOMYu7h2ZBJ4o665tvUCQMiBTa2YpmtJ50z4Y5E55v0HRxEOYyJDjPBvK65uepio3aYELCH3dw8/rcfds4E7Z2bM9MJcHmXNhoPrZfReetgLlc0Wt30qk0mgu6To6OT73TMBOsFIU6v7L914+zjJ1R/d0MxMXidM+Ge8w0Pm3lWzcHYztrJ0YneuZ0Av2p4uLKsTgIm3tB1Uai3kZK+PKU314qOmZAGZj2znvE2WwehLEhxqri0uS3b0HeATzPriZy2jl98b+LpxKFCSS0XVFleZE3HK2zQieiAz9euTshkZ3tlexPzJ9x2xKIs0uvziTUW07cxMcGTHGujYIIrT5pVYU8senq1VkxIkkRktrl9sr0pqsaYli1ROeE/FYDFJFsb2EsvHyjkdLyI6M2p6HomiaoeQ6PYFFTicP6ETgIBZX3pncxizUIsSdnaajLK210mVHKMk4OaXLetoJPjE4qiLCxmwJtVDANBlKnlQEOz2a0cXWgHqloypoploV4UR0dqJFxfcrAc21gGMjAiRSoalemWTshuTkNJbbDJpPP5E5Kiry9t8BhYaDYj5HSOrkQkQphaWn22tuoNioQ2yJ3lsail+q2BIBOBcnPgB/C/oouH0E4OCdNjS+hXkLoiPBa1UvsFc3SpJMhBpOF5SWXNJmztnxf13vrRRiyDraBmmIKKuq4vbOHIWQxnhOrktGN8oj52PzM+QYNezD8tyaphrxqCtw5L9VsDto7vZyYmNhaIXnMQ+1kCjQM618zEUkDXaW0RO8Yn6lBrJ2RVBm969VgNmpdxZDaQTD093MpsLK2fW4VHAtBOMk+nFmig9iPHLKZczj8Nqi3LOJJnRQO4+G59OZPZOoBmcYYOXcwsIU+T1Q+oz4HV1ARogKAC3MhgC23gcGQN8Q2IMvjITGD9cDG2eDipKHWarWixA2wnG8YiLGeYcAfZzvYzdCOtTT45naOLS5m38JaF2tagTGYOAuW1m3yA2f4V9vPoRm7SILG644oDedv+On+CUJxvWdqALlTTlUqchmP/6IMynJcCexKw3U78+Cc/ffpOwOqOC4iu5OgCG/rBFrqapCxbAKdB8IVUWv32z36auUAOpxmgdcQmJjJLk6Ki4AbVVvTCaZ0oQwZPW19/d2Nj69BYraocZCbRHVfJydG/n6zb33coSxNLFVU0Gy6roovZyiI8IA29q2XsXfWFjKYGN7fXTo62FUd24pjEtcJ81JqvnG6Vrtb1vG30rkC4A01ZeG/7ZG0HggHVusW06H9xfwLHkMGbC2iHU8D+AtBPzKpxwsdsuE9N+VMUTte1w8X3fry29jMxKIvQQHB3Fmu1W/PJz8SiOL2ztBirGR5oVMqRfMymawONh8IHjFZWl955mplk3L1yKEe3DB4DYmoNmg1MsuHbxhrR32mpLjFRDTuJCtHQCeYPk4CivTvBTRrjsaiF2i+8XpQPylR3JtFO92k5Pa1LTJRbqMy8mDiLA0ZcuMDSxuQWJrqAnbCyyPSCsSip9B3Yna/zDY144ENqp67ttxP+RnYCOkzCeGz8vOTmX0GBm1VRQV/aePZs7SfvocW0VLs1mI1jUhoQ0Gxg4KPXzDt0q++QcRnayvPN+vRhWXX//D+OjrZ1B3pRs88VY448swhNs5yDJnWFCTUo89i4dv2VDDRwy7l9tOp2IhZtdQ4YUT52BGYDw8AuMMFj4zWIjbU67ZbZMZiMHRLUfz6ls0tgAgFkQIeOESIN2JE/UY/auANsA0Madlj9EAEOruJwGh9ACSxuOeFjWj2Xexvge33XOSYgqAiWJ9xIdW4BrKQcFPnKi6rJ0Be3LpEJASdtdX1yy4b8iXpUWoeK844rO8wt1+4wLLuhHz3h63DKYLKs/ugXl7cnCQp1jNsudJ4/cQY4jgk0HG+vrIAVYLgaiye8UWgrKvSjJ9vYKCqeDVFXTk5Onl+iToCK7qwdHa35+E6hdgKYUI1FicFaaUTCKPSj0IHUmAwccD2BXvRydl3A/bWZgour4bEx+0fvpFvPIajw1k64gXFQ1Z2VZ3yPgzLA75TVTdCQ1aMd9TKYINB9idyOqUFBZE6savjlcwgxSU0eCXhVeMVjmVGxfJgYUqxsumUBQhDLTFjy+C3tU4PqiL2aXFHRAQfijhu1MlMVl3Nv75R1ROTREFrTlW0wI2UVsRyLWpqRbLl3EaGyzIWSZFZ9YPbPi5Z7UeMtc2PGxg6qgDFmRKkoB9G13PGy0wValvcusgjz1iEzbsdo9/InsAPBVAW3KqAyGFKo3ufgWpbqpeianYBeTT5+vrK2I5xNn3BmbJvwTQ6OwXIaDcCIPSWCE9YYlMOx+rCyW0yosrG42t2V/AlsHWrw2FjHLGNyFz8syehMrDxvKEUXcmoorfi24NQ1CO9t7zskwTs6bIxK1ex/QqkbetG1VYxGGw0ydGH/CU7Dc7FRNg2H7bOBEvSiz05Wvaf6b8zUYlAuy82m5hxmAlx89GZM15jbPy/K/LdKwVriZWIE5SZSOMoETxwAN1I9zThsBCdmiKtRORjOIMN+e5OgUpos8XAuf8ItojpuNm0UVTjAxOn4RCXhj/eipnCCCUmACIfv36VCs2zpijjBBPcnjKG5NXBmrXyrtBNMoB/7bHuHua2NAzuSP3ED53awF/W2VkoDDqyw5940tSqAIzk19Na+l7sv1qVw4Lsa/hNaJWvru5wc8Kx+uXbyvMTa2A3EfiZEGmzjOZRhPayxipL1vWGqsLoFjbXZISJWgjur01V4pkhNsjXbQvXSPNBooxDBKVujXKuzrYwL8GxxnaeyWdzGFkJmI4jHLzO3VsQUnAkWCAR43qHlQnBtFIDil5+2PLs1tVQPrL//watXLxZYwOLTIOzeKeb5LmjmS31biYB5p8rBi1evPnh/PdBqLXkFgr9GitZnt24+gYVfjRl4+YEVi+kGDDy4/eUybt8bwG+6t9ZWm0JhL/5WluL1hwGp9TeToRD+qhBfvk18cKQzEfRXY6d4+WHL7WFY5E3A4Clu4vsOv9len/xbjRS/onIrW+yPnpEC3z7wd/CVdYr++n4txt5vtX+SPjhUhxH++0FHzyPw4VidFC9bCcFcQ2cxAoKMd8CE/vq/vmLgEcfXxxZa7J9EBkfgEezu7o6MDPKfEWSjIyaUybF0rRCPfvhaMf96TXZvaGhwcGh3dwiFGRkECeDlSAdMBF7c/+jvDPy9gYcvWygmGRy6+aWbfbt9QyNvDt4cvDmyOzramU4Q5fX9eiH+++NX5s8Dmbj9Jbjy7giIMPjm4NDo6GgnTBD95f2v9ht4i+NrD6c/MDcVNUygEDeHdkfhZQdMUOX9sft1Qrz16+mH66ZlykwAhrgQgyOjqKQXZ0J5MXaeiYfm1bHBIbjyLldM/gM6iq2jre+hrEPg9XkmprdMnwdvHfAQ4NJlITprHQRl+Gr/J58invzmyZMnyMT0oUnytkQY2oUa8HedMKGvjyETn376yWef/BZkePLRW7++O/3UNIMcmTgVwDCY8OriPZj+kjPx2Wef/u73v/noD3/4I2diy9RysweD53Hn3sV7Uf19zsRnv//dJ5/9z0dP/vc3X0Mmpk2jCea/00CKN/1mZUwRGOOt49PfwRP549dAJTgTU+YJ/QP3bn/pDG4rHbgTygcVnej/9LdvPXnyi7c4E5ppIcLOygDwmUph5opTfayBnZie0puHH1Sg4w9unsM9v8VYoQH0F+BMnbETqBMmsQQVyL3zQtweNwuBWjDxshETi6ZMKIPnnBr0rHwW7rkxLsIEG28kxNC4yWXMmQgAE2f9ienpJcWMCYa+VL216pCJBWDijD9xd3pCNxMcLOapFENVOcZNQmnTuXIh8MHY/T/9A8fjR485JqYf4h5rzeezgYmhPvBidvugB7s5dBO8CvjzwG1xQvx8jZTC8/iKIUVZiJm70zHFrAwygQIM9fUNDaEAIyDJ4NC42c2aG6vJsbH/Q/f2MTDx6OuA7PTdmLnTTwdHdsGtGurrGUUmbleYML+SCQjGgH9CKb5SkeLPd6cPTctg3NG3Owr+7e7uiMHECDLRgbcNAfnHd+/e/cHjx4/2puEFNNAW+1JC3DEETi4KYejEnU6ZoJOgFCjFIyDiL3e5FC129AUmuAAj6ODxR2HoxMWZUNZfQiOdnv4LMjExjVhsHYHVulVGY+2ICcNmfjw9wZngQkwfnE1RqAfqxKkQZTsx0lEsqiwAFff/iobi8SMUoeX2yu47QyP1FhsFiXQSi0oBHCP5+DEK8fgvoJambi4C+47zUox0MkpClAOg4m9//TMCRNhoudM1kfwPBm/ersGdwV4/6+BpCJIEphss1l9RjF9NTz88bCkF88/fGXyzVorBm36/1aWujREQX0EzNVrnxJKV9aI+YKIOgx2OWKEUH77mFgts1XTMygah6G/XC3Gz0+RQCiHQi9cvpycmNg6ppb3PWeTOGXTSPstQ9A9fvX44PfF0a9LaruP+s0K82XmarKQEAgElcG5hf1O4Vfgpg7+wZSoMpQjoAcsb0VcuXoUdQkiWRsEb4+Ilz1d18SvbKMUXHxcOB75ouGaigstWyWtc4xrXuMY1rnGNzwUuM6jgC4zgl1wH4231BLm6DEmWLWYw8grKM6j1WY9y0khTb1RTsu38SNvgDeVlgYRCNGQgb/wp4d880agg5POMhAr5JJ4ts1AhRBnR5EbPrnbmWMda4hoOuVMtm62Z8JPzM3Ema4I+E6q/bVkj3pn8ZVEhx8PppCAXi/EwRy5t/C3wv6k4EZKpPS0Br/eQCgkPp/LazF6VCbnmd83LUg4rSGsQBIhaKlfDRDIbLsh7M8k8XrmmjL6XTYb4ZeS6mrqEKhNaKL8Xzubz8VA+nMjn9XS4kM+GE0lBD8dnwtlSKqyLgpwNz5QK4dR+IlfSdEZKWlKPazLV9LiuKiJJxr1wgK8A9uZS+VAinNV0OU7icFISfhGqMzEu5mU9l0qyvK7qFL9tSZbjelIrhRMaCelE0/I66KKY9Ma1LgZTyMR+MlksJrXkTDikiZqmwf1ryXQ4ru0Xc3JyprhfmFH30xUmkslQHjQjFy+mgMQ0Ko46Awows7+XA92ZKYZzqOHeXGIfHvteIZwIFxJFrZTAM7ViMZcohAspfBNOc0UsegtQfE8shuERQP3wLrenYTlQqYvd1UUCWBoP51KpVK6YFICJggZHCGoC3GIoXsil5GRqJinLashQZW8iXNyLJ+OpXMhbDKcLM+GZUDGhF9N6Ikz3wjOFXC6LbBHUiXg8Hc6CBu3FU0VgslAAcoA9OKEQKsKn4TTLQivcSyYS3r1wKATkhMIzUDCEJ4cToFL5Cy1ctraG+Oy0YzxcTKfTVSZww6IyE/i4QsF8OI+aA4YERzA1LZsI5wrQOih/6IncTLaYS5aye6lwfC8c3y8W93UgjQITWEECnm12P5kqysXUPtSpgvKhndDgLbbLZDyXYrKQ3QPF0XPpfWACCsDRdAjKoZJe5KY6aB1wAwYTmLhbYSJbCInQOFL70GMUc7zvkAtZTYNn93YiR4AJTUuFE4l0upQrAkHARD6ZSmGN0My9xSJ0OBoyAacVNeAN9EIoFlUVLWaZCQYEyhrwCVpAT5nwciawuXbPaBoWk9UyoZWZiKMXIEPjEPRUOOSNewXOD8vnkIkSMCEnQan3oeMNz7ydNpgoprR4eA+YAJu4j24JGAVkYj8RLoFiAVOcCaGYwr4DuMmKJRDhbbi2DteFmuJckWYuhYkgMJGTzzOBRORzcVmewe41nFW5nQB7VoBTc9DFqHI8Be/3SDFczIXzVSa4TkDvgPWXdSIZgtYCBYsGE8nEqcXMgTGF4tkkKBj0otAmcuEUK3SbCUEvhJhACwUGd10o4RGlEBIkOVTAWRltJqUJWr6AiOONkVA2CxTRbBYKwiPXC9kQk+PZbD4bDxVKWqGgefEDQSoYdxEvxCkNFQQ8BxwtOAqv4hq8gzO8vGK/CB8V8nC84MUGFcoWoOstxEEgr5noNgO6TQpeoKzgpjjGipKgqkgKOHz4aUnna62rrrcQDAZxYlSWCS5yJeAYct9JhsJEFkSsQ0bbSmRjtzaB712HmznLuMWGBg6trEJ0AVeFKoOahufJqoxbPEBd8I8a10rii7a+Ivga17jGNa7RPi7imH4hcT0vWsH/A18oDC5M/0gOAAAAAElFTkSuQmCC",
+    description:
+      "Http (Hyper Text Transfer Protocol) is an application protocol which is standard for communication on the World Wide Web since its invention. In more simple terms it is like the certain set of rules to be followed while doing a task (in this case the task is communication or we can say transfer of data).",
+    link: "https://muntha-pavan.medium.com/http-1-1-vs-http-2-5638838e2f42",
+  },
+  {
+    name: "Difference between window, screen, and document in Javascript",
+    image: "https://miro.medium.com/max/3000/1*c8uF_2EcBCzorp0Tmk5JKA.jpeg",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident, exercitationem totam impedit dolore sunt cum possimus odio veniam blanditiis quis reiciendis, aliquam pariatur ab optio omnis. Facere, dicta distinctio.",
+    link: "",
+  },
+];
