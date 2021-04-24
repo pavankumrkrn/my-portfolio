@@ -17,7 +17,7 @@ const image2 =
 const App = () => {
   const downloadFile = () => {
     window.open(
-      "https://drive.google.com/file/d/1NG2yYUXjQwe6-WJ0Xblw3N-77G0gcXgu/view?usp=sharing"
+      "https://drive.google.com/file/d/1f_RwqUHvfhpEPpqK-MTtEABR35d8_K86/view?usp=sharing"
     );
   };
 
