@@ -8,10 +8,7 @@ import { Blog } from "./BlogComponents/Blog";
 import { Carousel } from "./Carousel";
 import image1 from "./Shared/Carousel/1.jpg";
 import Aos from "aos";
-<<<<<<< HEAD
 import Scroll from "./UIComponents/Scroll";
-=======
->>>>>>> 55da01eb80554eb02ffc22e14a04bfd89f5d1158
 
 const home = ["Home", "About", "Projects", "Blog", "Contact"];
 const strArr = ["Hi! I am Pavan Kumar Muntha", "A MERN stack developer"];
@@ -62,7 +59,6 @@ const App = () => {
       <div id="Contact">
         <Footer />
       </div>
-    </div>
     </>
   );
 };
