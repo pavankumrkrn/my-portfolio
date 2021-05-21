@@ -2,3 +2,12 @@
   box-sizing: border-box;
   /* height: 50vh; */
 }
+
+.medium {
+  font-size: medium;
+}
+
+.back {
+  background-color: inherit !important;
+  border: none !important;
+}

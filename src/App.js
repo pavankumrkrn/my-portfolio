@@ -8,7 +8,10 @@ import { Blog } from "./BlogComponents/Blog";
 import { Carousel } from "./Carousel";
 import image1 from "./Shared/Carousel/1.jpg";
 import Aos from "aos";
+<<<<<<< HEAD
 import Scroll from "./UIComponents/Scroll";
+=======
+>>>>>>> 55da01eb80554eb02ffc22e14a04bfd89f5d1158
 
 const home = ["Home", "About", "Projects", "Blog", "Contact"];
 const strArr = ["Hi! I am Pavan Kumar Muntha", "A MERN stack developer"];
@@ -31,22 +34,23 @@ const App = () => {
           <Scroll />
         </div>
 
-        <button
-          className="btn sticky-top shd float-right btn-lg bttn button cur text-white"
-          onClick={downloadFile}
-        >
-          <span className="btnspn">Resume</span>
-          <i class="fa fa-download dicon"></i>
-        </button>
-        <div className="container">
-          <About />
-        </div>
-        <hr className="aboutHr" />
-        <p className="textXL text-center mb-5 mt-5 text-white">Projects</p>
-        <Projects />
-        <hr className="aboutHr" />
-        <Blog />
-        {/* <Switch>
+      </div>
+      <button
+        className="btn sticky-top shd float-right btn-lg bttn button cur text-white"
+        onClick={downloadFile}
+      >
+        <span className="btnspn">Resume</span>
+        <i class="fa fa-download dicon"></i>
+      </button>
+      <div className="container">
+        <About />
+      </div>
+      <hr className="aboutHr" />
+      <p className="textXL text-center mb-5 mt-5 text-white">Projects</p>
+      <Projects />
+      <hr className="aboutHr" />
+      <Blog />
+      {/* <Switch>
           <Route path="/Home" exact={true} component={Home} />
           <Route path="/About" exact={true} component={About} />
           <Route path="/Projects" exact={true} component={Projects} />
@@ -55,10 +59,10 @@ const App = () => {
           <Route path="/Projects/" component={Projects} />
           <Route path="/" component={Home} />
         </Switch> */}
-        <div id="Contact">
-          <Footer />
-        </div>
+      <div id="Contact">
+        <Footer />
       </div>
+    </div>
     </>
   );
 };

@@ -5,3 +5,12 @@
 .med {
   top: 300px;
 }
+
+.small {
+  font-size: small;
+}
+
+.loadingSpinner {
+  position: absolute;
+  z-index: 999;
+}

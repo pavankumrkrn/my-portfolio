@@ -6,6 +6,10 @@
   margin-top: 30vh;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-image: linear-gradient(
     black,
@@ -13,6 +17,7 @@ body {
     rgb(48, 43, 43),
     black
   );
+  /* nbackground-image: url("https://i.pinimg.com/originals/cc/30/b2/cc30b2f5c606bf160d5185842990431b.gif"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -131,11 +136,17 @@ body {
   }
 }
 
+.d-block {
+  max-width: 90wv;
+}
 .footer {
   border-top: 1px solid gray;
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .blinking-cursor,
   .resp {
     font-size: 30px;
@@ -306,7 +317,7 @@ p {
 }
 
 .textXL {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .shd {
